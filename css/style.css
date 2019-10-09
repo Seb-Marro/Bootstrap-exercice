@@ -1,0 +1,85 @@
+   /* ============ GENERAL ============ */
+   
+   html,
+   body {
+       height: 100%;
+       font-family: 'Alegreya Sans', sans-serif;
+       color: #373a3c;
+   }
+   
+   .lead {
+       font-size: 20px;
+       font-weight: 300;
+       ;
+   }
+   
+   @media (max-width: 768px) {
+       #mainHeader-1 {
+           text-align: center;
+           margin: 0 auto;
+           margin-top: 50px;
+       }
+       #mainHeader img {
+           margin: 0 auto;
+       }
+       #mainHeader-2 {
+           margin-top: 30px;
+       }
+   }
+   /* ============ NAVBAR ============ */
+   
+   #mainNavbar .navbar-toggler {
+       border-style: none;
+       color: #be2835;
+       font-size: 30px;
+   }
+   
+   .navbar-toggler:focus {
+       outline: none;
+   }
+   
+   #mainNavbar {
+       border-bottom: 1px solid white;
+       background-color: rgba(0, 0, 0, 0.2);
+   }
+   
+   #mainNavbar .nav-link {
+       color: #d1d1d1;
+   }
+   
+   #navbarNav .nav-link:hover {
+       color: #be2835;
+       font-size: 17px;
+       font-weight: 300;
+   }
+   /* ============ HEADER ============ */
+   
+   #mainHeader {
+       background-image: url("../img/stars-bg.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 100%;
+       /* display: flex;
+       align-items: center; */
+   }
+   
+   #mainHeader-2 {
+       padding: 30px;
+       background-color: rgba(0, 0, 0, 0.5);
+       border-radius: 20px;
+   }
+   
+   #mainHeader-2 button:hover {
+       background-color: #be2835;
+       transition: all 0.5s ease-in-out;
+   }
+   
+   #mainHeader-3 i {
+       color: #d1d1d1;
+   }
+   
+   #mainHeader-3 i:hover {
+       color: #be2835;
+   }
+   /* ============ SOCIAL ============ */
