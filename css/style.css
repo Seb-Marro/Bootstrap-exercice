@@ -12,6 +12,11 @@
        font-weight: 300;
        ;
    }
+   /* .btn {
+       transition: all 0.3s ease-in-out;
+   } */
+   /* .padding 68px0 px */
+   /* customasition des icones en rouge */
    
    @media (max-width: 768px) {
        #mainHeader-1 {
@@ -24,6 +29,46 @@
        }
        #mainHeader-2 {
            margin-top: 30px;
+       }
+       #mainSocial-1 {
+           text-align: center;
+       }
+       #mainSocial-1 hr {
+           margin: 30px auto
+       }
+       #mainSocial-2 {
+           text-align: center;
+       }
+       #mainSocial-1 p {
+           margin: 30px 0px;
+       }
+       #mainWho {
+           text-align: center;
+       }
+       #mainWho-1 hr {
+           margin: 30px auto;
+       }
+       #mainWho-2 {
+           margin-top: 76px;
+       }
+       /* #social hr,
+       #who hr {
+           margin: 8% auto;
+       } */
+   }
+   
+   @media (min-width:768px) and (max-width: 991.99px) {
+       #mainSocial-2 {
+           padding-left: 30px;
+       }
+       #mainSocial-2 i {
+           margin-bottom: 8px;
+       }
+   }
+   
+   @media (max-width: 576px) {
+       #mainSocial-2 i {
+           margin-bottom: 8px;
        }
    }
    /* ============ NAVBAR ============ */
@@ -83,3 +128,110 @@
        color: #be2835;
    }
    /* ============ SOCIAL ============ */
+   
+   #mainSocial {
+       padding: 68px 0px;
+   }
+   
+   #mainSocial-1 hr {
+       background-color: #be2835;
+   }
+   
+   #mainSocial-2 {
+       padding-left: 30px;
+   }
+   
+   #mainSocial-2 i {
+       font-size: 24px;
+       color: #be2835;
+       background-color: #ffffff;
+       border: 2px solid #be2835;
+       border-radius: 20px;
+       height: 60px;
+       width: 60px;
+       text-align: center;
+       line-height: 60px;
+   }
+   
+   #mainSocial-2 .fa:hover {
+       background-color: #be2835;
+       color: #ffffff;
+       transition: all 0.5s ease-in-out;
+   }
+   /* ============ WHO ============ */
+   
+   #mainWho {
+       padding: 68px 0px;
+       background-color: #f6f6f6;
+   }
+   
+   #mainWho-1 hr {
+       background-color: #be2835;
+   }
+   
+   #mainWho-1 button {
+       width: 50%;
+       background-color: #be2835;
+       border-style: none;
+   }
+   
+   #mainWho-1 button:hover {
+       background-color: #ffffff;
+       color: #be2835;
+       border: 1px solid #be2835;
+       transition: all 0.5s ease-in-out;
+       font-weight: 700;
+   }
+   /* ============ WORK ============ */
+   
+   #mainWork {
+       padding: 80px 0px;
+   }
+   
+   #mainWork hr {
+       background-color: #be2835;
+   }
+   
+   #mainWork-2 img {
+       filter: sepia(0);
+       -webkit-filter: sepia(0);
+       -moz-filter: sepia(0);
+       -o-filter: sepia(0);
+       -ms-filter: sepia(0);
+   }
+   
+   #mainWork-2,
+   #img:hover {
+       filter: sepia(1);
+       -webkit-filter: sepia(1);
+       -moz-filter: sepia(1);
+       -o-filter: sepia(1);
+       -ms-filter: sepia(1);
+   }
+   
+   #mainWork-3 img:hover {
+       filter: sepia(1);
+       -webkit-filter: sepia(1);
+       -moz-filter: sepia(1);
+       -o-filter: sepia(1);
+       -ms-filter: sepia(1);
+   }
+   /* ============ WHY ============ */
+   
+   #mainWhy {
+       padding: 68px 0px;
+       background-color: #f6f6f6;
+   }
+   
+   #mainWhy-1 i {
+       color: #be2835;
+   }
+   
+   #mainWhy hr {
+       background-color: #be2835;
+   }
+   /* ============ CUSTOMERS ============ */
+   
+   #mainCustomers-1 hr {
+       background-color: #be2835;
+   }
