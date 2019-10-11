@@ -232,6 +232,39 @@
    }
    /* ============ CUSTOMERS ============ */
    
+   #mainCustomers {
+       padding: 68px 0px;
+   }
+   
    #mainCustomers-1 hr {
+       background-color: #be2835;
+   }
+   
+   #mainCustomers-2 li {
+       background-color: #be2835;
+   }
+   
+   #mainCustomers-2 .carousel-inner {
+       margin-bottom: 50px
+   }
+   
+   #mainCustomers-2 .carousel-indicators {
+       /* background-color: brown; */
+       margin-bottom: -50px;
+   }
+   /* ============ PRICE ============ */
+   
+   #mainPrice {
+       padding: 68px 0px;
+       background-color: #f6f6f6;
+   }
+   
+   #mainPrice button:hover {
+       background-color: #be2835;
+       font-size: 17px;
+       font-weight: 300;
+   }
+   
+   #mainPrice-1 hr {
        background-color: #be2835;
    }
