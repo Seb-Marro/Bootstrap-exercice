@@ -1,3 +1,7 @@
+   /* ============ REMIMBER============ */
+   /* Create class for transition hover
+   /* Create class forpadding  68px0 px */
+   /* Create class for customasition pictures */
    /* ============ GENERAL ============ */
    
    html,
@@ -12,11 +16,6 @@
        font-weight: 300;
        ;
    }
-   /* .btn {
-       transition: all 0.3s ease-in-out;
-   } */
-   /* .padding 68px0 px */
-   /* customasition des icones en rouge */
    
    @media (max-width: 768px) {
        #mainHeader-1 {
@@ -51,10 +50,9 @@
        #mainWho-2 {
            margin-top: 76px;
        }
-       /* #social hr,
-       #who hr {
-           margin: 8% auto;
-       } */
+       #mainPrice .card {
+           margin-bottom: 13px;
+       }
    }
    
    @media (min-width:768px) and (max-width: 991.99px) {
@@ -260,11 +258,29 @@
    }
    
    #mainPrice button:hover {
-       background-color: #be2835;
+       background-color: #f5a34c;
+       transition: all 0.5s ease-in-out;
        font-size: 17px;
        font-weight: 300;
    }
    
+   #mainPrice .card-header {
+       background-color: #6e6e6e;
+       color: white;
+   }
+   
+   #mainPrice .card-header:hover {
+       background-color: #be2835;
+       color: white;
+       transition: all 0.3s ease-in-out;
+   }
+   
    #mainPrice-1 hr {
        background-color: #be2835;
+   }
+   
+   #mainPrice-2 .standard {
+       background-color: #be2835;
+       font-size: 21px;
+       padding: 15px 0px;
    }
